@@ -4,7 +4,7 @@ import { whichUser } from "../utils/helper";
 
 const Error = (props) => {
   console.log(props);
-  const { error, state } = props;
+  const { state } = props;
   if (state.authUser.error) {
     return (
       <div className="error-container">

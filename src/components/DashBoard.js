@@ -8,7 +8,6 @@ import Finance from "./Finance";
 import { handleInitialItems } from "../actions/item";
 import { handleInitialTransaction } from "../actions/transaction";
 import { whichUser } from "../utils/helper";
-import Error from "./Error";
 
 const DashBoard = (props) => {
   console.log(props);
