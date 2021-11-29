@@ -5,16 +5,18 @@ import Login from "./Login";
 import DashBoard from "./DashBoard";
 import CreateItem from "./CreateItem";
 import CreateWorker from "./CreateWorker";
+import Error from "./Error";
 
 function App(props) {
-  useEffect(() => { });
+  useEffect(() => {});
   return (
     <Router>
       <Switch>
         <Route exact path="/" component={Login} />
-            <Route path="/dashboard" component={DashBoard} />
-            <Route path="/add-item" component={CreateItem} />
-            <Route path="/worker" component={CreateWorker} />
+        <Route path="/dashboard" component={DashBoard} />
+        <Route path="/add-item" component={CreateItem} />
+        <Route path="/worker" component={CreateWorker} />
+        <Route path="/error" component={Error} />
       </Switch>
     </Router>
   );
@@ -22,7 +24,7 @@ function App(props) {
 
 function mapStateToProps(state) {
   return {
-    state
+    state,
   };
 }
 

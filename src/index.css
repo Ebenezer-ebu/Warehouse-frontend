@@ -203,7 +203,8 @@ nav ul li a {
   color: #dd6e42;
 }
 
-.to-right, .to-left {
+.to-right,
+.to-left {
   display: flex;
   padding: 5px;
   align-content: flex-end;
@@ -211,13 +212,20 @@ nav ul li a {
 }
 
 .to-left {
-color: #dd6e42;
+  color: #dd6e42;
 }
 
 .to-right {
   color: green;
 }
 
-
-
-
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #4f6d7a;
+  color: #dd6e42;
+  margin: 50px auto;
+  width: 50%;
+}
