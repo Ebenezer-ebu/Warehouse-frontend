@@ -9,7 +9,7 @@ const Nav = (props) => {
 
   const setUser = () => {
     document.cookie =
-      "user" + "=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;";
+      'user=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
     props.dispatch(setAuthedUser({}))
   }
   useEffect(() => {

@@ -1,6 +1,5 @@
 import { showLoading, hideLoading } from "react-redux-loading";
 import { login } from "../utils/api";
-import { whichUser } from "../utils/helper";
 
 export const SET_AUTHED_USER = "SET_AUTHED_USER";
 // export const WHICH_USER = WHICH_USER;

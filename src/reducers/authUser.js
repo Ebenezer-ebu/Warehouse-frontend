@@ -1,4 +1,4 @@
-import { SET_AUTHED_USER, WHICH_USER } from "../actions/user";
+import { SET_AUTHED_USER } from "../actions/user";
 
 export default function authUser(state = {}, action) {
   switch (action.type) {

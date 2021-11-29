@@ -4,7 +4,6 @@ export function whichUser() {
   try {
     let pass = document.cookie.split("=")[1];
     let decoded = jwtdecode(pass);
-    console.log(decoded);
     return decoded.isUser.role;
     // valid token format
   } catch (error) {
