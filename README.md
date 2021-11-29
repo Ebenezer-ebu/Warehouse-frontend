@@ -9,3 +9,5 @@ This is the frontend part of the task.
 
 3. A user complained that your app takes 3 seconds to come up when they launch it, what are the possible causes to look into?   
     The major cause for this issue is adding too many components into a single bundle file, so the loading of that bundle    file might take more time. To avoid this kind of issue, we need to structure our components in an optimized way. To solve this react itself has a native solution, which is code-splitting and lazy loading. Which allows splitting bundle files into a smaller size.
+
+Link to deployed site https://pensive-yalow-97db03.netlify.app/
