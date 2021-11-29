@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+
+## I am a Fullstack Developer, but major in Nodejs for the backend
 This is the frontend part of the task.
 
 1. What informed your choice of technologies for this task?
